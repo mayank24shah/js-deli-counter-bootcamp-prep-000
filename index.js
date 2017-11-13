@@ -20,9 +20,8 @@ while(katzDeliLine.lenght>i){
 var line = [];
 function currentLine(katzDeliLine){
   var i=0;
-  while(katzDeliLine.lenght>i){
-    line.push(''+[i+1]+katzDeliLine[i])
-    i++;
+  for(i=0;i<katzDeliLine;i++){
+    line.push(''+[i+1]+'.'+katzDeliLine[i])
   }
   if(katzDeliLine.length === 0){
     return "The line is currently empty."
