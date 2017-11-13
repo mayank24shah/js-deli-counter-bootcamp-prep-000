@@ -19,7 +19,7 @@ while(katzDeliLine.lenght>i){
 }
 var line = [];
 function currentLine(katzDeliLine){
-  var i=0;
+  let i=0;
   for(i=0;i<katzDeliLine;i++){
     line.push(''+[i+1]+'.'+katzDeliLine[i])
   }
